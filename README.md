@@ -21,3 +21,4 @@ The `sfdx-project.json` file contains useful configuration information for your 
 
 To enable communication from a parent to child, the child component exposes a property or function to make it public.  Then the parent can update the child's public property or call the child's public function.  Also, you can update the public property to a getter and setter on the child component.
 
+The `@api` decorator in the child component exposes a property, making it public, so that the parent component can update it.
